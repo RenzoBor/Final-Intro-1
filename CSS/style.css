@@ -15,7 +15,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/bg-simplify-section-desktop.svg);
+    background-image: url(../img/);
 }
 #getstarted{
    background-color: var(--colorPrincipal);
@@ -88,6 +88,43 @@ h1{
 }
 #pA{
     color: rgb(35, 44, 81, 0.6);
+    margin: 25px 0
     
 }
+.bot-main-section{
+    display: flex;
+    margin: 50px;
+}
+.botmainA, .botmainB, .botmainC{
+    display: flex;
+    flex-direction: column;
+}
+.botmainA{
+    width: 50%;
+    justify-content: space-around;
+    height: 80vh;
 
+}
+.botmainB{
+    align-items: center;
+    justify-content: space-around;
+    width: 10%
+}
+.botmainC{
+    width: 40%;
+    padding-left: 50px;
+}
+.numberbanner{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    background-color: var(--colorPrincipal);
+    border-radius: 30px;
+    color:white;
+    padding-left: 25px;
+}
+h5{
+    color: var(--colorSecundario);
+    margin: 30px 0;
+}
